@@ -58,11 +58,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void makeDummyData(int number)
-    { for(int i=0; i<number; i++) {
-        Note note = new Note();
-        note.setName("Note " + String.valueOf(i));
-        note.setDesc("Desc " + String.valueOf(i));
-        NotesData.getInstance(this).getNoteList().add(note);
+    private void makeDummyData(int number) {
+        for(int i=0; i<number; i++) {
+            Note note = new Note();
+            note.setName("Note " + String.valueOf(i));
+            note.setDesc("Desc " + String.valueOf(i));
+            NotesData.getInstance(this).getNoteList().add(note);
+        }
     }
 }

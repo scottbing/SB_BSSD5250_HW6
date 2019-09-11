@@ -44,7 +44,7 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
         return mContext;
     }
 
-    public void setmContext() {
+    public void setmContext(Context mContext) {
         this.mContext = mContext;
     }
 

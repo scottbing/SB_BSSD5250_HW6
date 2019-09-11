@@ -9,6 +9,7 @@ public class Note {
     private String desc;
 
     public Note() {
+        // default to today's date
         date = new Date().toString();
     }
 
@@ -25,14 +26,15 @@ public class Note {
     }
 
     public void setDate(String date) {
-        this.name = date;
+        this.date = date;
     }
 
     public String getDesc() {
         return desc;
     }
 
-    public void setDesc(String descdate) {
-        this.name = desc;
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
+
 }
