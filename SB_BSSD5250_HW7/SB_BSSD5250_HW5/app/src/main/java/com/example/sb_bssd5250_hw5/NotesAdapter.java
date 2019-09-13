@@ -92,7 +92,8 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
         descView.setId(DESC_ID);
 
         Button editButton = new Button(mContext);
-        editButton.setText("Update");
+        editButton.setText("Edit");
+
 
         linearLayout.addView(nameView);
         linearLayout.addView(dateView);
